@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Información del usuario</title>
+  </head>
+  <body>
+    <h1>Información del usuario</h1>
+    {% if user %}
+      <p>Nombre: {{ user.nombre }}</p>
+      <p>Apellido: {{ user.apellido }}</p>
+      <p>Sexo: {{ user.sexo }}</p>
+      <p>Edad: {{ user.edad }}</p>
+    {% else %}
+      <p>No se encontró ningún usuario.</p>
+    {% endif %}
+
+    {% if mensaje %}
+      <p>{{ mensaje }}</p>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Historial de cálculos</title>
+  </head>
+  <body>
+    <h1>Historial de cálculos</h1>
+    {% if historial %}
+      <table>
+        <tr>
+          <th>Tipo de Cálculo</th>
+          <th>Resultado</th>
+          <th>Fecha</th>
+        </tr>
+        {% for registro in historial %}
+        <tr>
+          <td>{{ registro[3] }}</td>
+          <td>{{ registro[4] }}</td>
+          <td>{{ registro[5] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    {% else %}
+      <p>No hay registros de cálculos.</p>
+    {% endif %}
+  </body>
+</html>

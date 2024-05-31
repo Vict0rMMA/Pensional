@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gestión de usuarios</title>
+  </head>
+  <body>
+    <h1>Gestión de usuarios</h1>
+    <h2>Opciones:</h2>
+    <ul>
+      <li><a href="{{ url_for('nuevo') }}">Registrar nuevo usuario</a></li>
+      <li><a href="{{ url_for('buscar_usuario') }}">Buscar usuario</a></li>
+      <li><a href="{{ url_for('modificar_usuario') }}">Modificar usuario</a></li>
+      <li><a href="{{ url_for('eliminar_usuario') }}">Eliminar usuario</a></li>
+      <li><a href="{{ url_for('realizar_calculo') }}">Realizar cálculo</a></li>
+      <li><a href="{{ url_for('ver_historial_calculos') }}">Ver historial de cálculos</a></li>
+    </ul>
+  </body>
+</html>
