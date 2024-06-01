@@ -66,7 +66,9 @@ dicho paso se hace de la siguiente manera -> cd C:\Users\ASUS\Downloads\Calculad
 - Para correr los tests del controlador, se hace con python ControladorTests.py
 - Para correr los tests de la calculadora, es con python PensionTests.py
 
+VIDEO DE YOUTUBE CODIGO
 
+https://www.youtube.com/@victormonsalve7273/TRABAJOCODIGOLIMPIO
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
