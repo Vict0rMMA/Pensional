@@ -2,7 +2,7 @@
 Calculadora pensional
 
 # Desarrollador
-Victor Monsalve 
+Victor Manuel Monsalve Aguilar-Libardo Quintero 
 Estudiantes de ingeniería en sistemas - UdeM  
 Entrega #3 de Código Limpio
 
